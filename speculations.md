@@ -1,10 +1,12 @@
 # Lab 3 - Spicy Ramen Speculations
 ## How will inventory be tracked?  
 We will have a table named `inventory`. It will be structured as follows:
-### Inventory Table
+### Inventory Table  
+
 |id (Primary)| vendor | item| price | quantity | unit |note|
-|------------|:------:|:---:|:-----:|:--------:|:---:|
+|------------|:------:|:---:|:-----:|:--------:|:---:|:---:|
 | int        | text   |text |decimal (7,2)| int | text | text|
+
 `id` will be unique, and will be our primarty key. We can see how many of each item is in stock based on the quantity key. Employees will interact with this table.
 ## Should the system keep track of vendors?
 We think it would be a good idea to include vendor information in our `inventory` table so a manager can lookup items in the inventory by vendor. This will be useful for managers who often order in bulk for a single vendor. With this feature, managers will be able to at a glance, see how many, and with what quantity, the products they have from a single vendor. To implement this, we have a field in our `inventory` table (see above), `vendor`, that will represent this value.
