@@ -62,7 +62,7 @@ Here are a few questions to ask yourself:
 
 That's a lot to think about, and we are only going to focus on a small subset of a complete system... but it would be nice to design our subsystem carefully enough that it could be integrated into something larger without too much trouble.
 
-I would like each group to start a document (about a page long) detailing a rough outline of what you think would be necessary-- we'll flesh this out later.  Make your document link-able from [[Group Planning wiki|planning]] (a link to another Wiki page is fine-- ask if you're not sure how to it)
+I would like each group to start a document (about a page long) detailing a rough outline of what you think would be necessary-- we'll flesh this out later.  Make your document link-able from [[Group Planning wiki|planning]](speculations.md)
 
 ## A more in-depth set of exercises
 
